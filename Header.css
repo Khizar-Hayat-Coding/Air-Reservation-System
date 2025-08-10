@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background: rgb(0, 51, 102);
+    color: white;
+}
+
+.logo img {
+    height: 100px;
+    width: auto;
+
+}
+
+.logo,
+nav,
+.auth-btn {
+    flex: 1;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+nav a {
+    color: rgb(255, 255, 0);
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: rgb(124, 124, 0);
+    transition: all 1s;
+
+}
+
+.nav-link {
+  color: yellow !important;  
+  font-weight: 500;
+}
+.nav-link:hover {
+  color: #ffd700 !important; 
+  text-decoration: none;
+}
+
+
+.auth-btn {
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+    justify-content: end;
+}
+
+#log,
+#reg {
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(240, 240, 0);
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#log:hover {
+    transition: all 2s;
+    background-color: rgb(78, 255, 24);
+}
+
+#reg:hover {
+    transition: all 2s;
+    background-color: rgb(78, 255, 24);
+}
+

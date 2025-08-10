@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: url('Visuals/formsbg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+  max-width: 450px;
+}
+
+#fd {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
+
+.data1 {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+#f {
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+#password,#email,#subject,#message,#name,#confirmPassword,#fullName,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  outline: none;
+}
+
+
+#fbtn {
+  width: 100%;
+  padding: 12px;
+  background: rgb(0, 51, 102);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#fbtn:hover {
+  color: black;
+  transition: all 3s;
+  background: rgb(240, 240, 0);
+}
+
+.error {
+  color: rgb(255, 77, 77);
+  font-size: 12px;
+  display: block;
+  margin-top: 5px;
+}
+
+#pf {
+  color:rgb(255, 255, 54);
+  margin-top: 20px;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+

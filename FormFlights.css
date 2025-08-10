@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.flights {
+    background: url('Visuals/imgbg.jpg');
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px;
+}
+
+.search-form {
+    background: rgba(190, 190, 190, 0.9);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+#city {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#city::placeholder {
+    color: rgb(153, 153, 153)
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.group {
+    flex: 1;
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#btn {
+    background: rgb(0, 51, 102);
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 100%;
+}
+
+#btn:hover {
+    background-color: rgb(240, 240, 0);
+    color: black;
+    transition: all 2s;
+}

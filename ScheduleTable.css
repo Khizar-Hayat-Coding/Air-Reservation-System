@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.schedule {
+    margin-top: 30px;
+    padding: 16px;
+    background: rgb(255, 255, 255);
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    background: rgb(0, 51, 102);
+    color: white;
+    padding: 16px;
+    text-align: left;
+}
+
+td {
+    padding: 13px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+tr:hover {
+    background-color: rgb(216, 216, 216);
+}
+
+#ontime {
+    color: rgb(40, 167, 69);
+}
+
+#delayed {
+    color: rgb(220, 53, 69);
+}
+
+.on-time {
+    color: rgb(40, 167, 69);
+}
+
+.delayed {
+    color: rgb(220, 53, 69);
+}
+
+.book-btn {
+    background: rgb(0, 51, 102);
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#book-btn { 
+    background: rgb(0, 51, 102);
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.book-btn:hover {
+    transition: all 1s;
+    background-color: rgb(240, 240, 0);
+    color: black;
+}
+
+#book-btn:hover {
+    transition: all 1s;
+    background-color: rgb(240, 240, 0);
+    color: black;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: rgb(0, 51, 102);
+}

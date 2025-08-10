@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+footer {
+    background: rgb(0, 51, 102);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: rgb(180, 220, 255);
+}
